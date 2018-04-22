@@ -1,0 +1,10 @@
+{
+  "name": "labts",
+  "version": "0.0.1",
+  "dependencies": {
+    "typescript": "^2.8.3"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/tsc -p tsconfig.json && node main_use.js"
+  }
+}
